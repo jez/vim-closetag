@@ -19,8 +19,11 @@ And now if you press <kbd>&gt;</kbd> again, the content will be:
 
 The following tags will not be closed:
 
-    <area>, <base>, <br>, <col>, <command>, <embed>, <hr>, <img>, 
+    <area>, <base>, <br>, <col>, <command>, <embed>, <hr>, <img>,
     <input>, <keygen>, <link>, <meta>, <param>, <source>, <track>, <wbr>
+
+along with anything that looks like a link because it has a URI scheme in front,
+like `<https://example.com>`.
 
 #### Install
 
